@@ -1,92 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Naked Lunch Meat</title>
   <style>
     body {
-      background-color: #0d0d0d;
-      color: #e8e6d1;
-      font-family: 'Courier New', Courier, monospace;
+      background-color: #111;
+      color: #eee;
+      font-family: 'Courier New', monospace;
       text-align: center;
-      padding: 2em;
+      padding: 4em;
     }
-
-    header {
-      border-bottom: 1px solid #ff0033;
+    h1 {
+      color: #ff0033;
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      color: #aaa;
+      font-size: 1.2em;
       margin-bottom: 2em;
     }
-
-    h1 {
-      font-size: 3em;
-      margin: 0;
-      color: #ff0033;
-    }
-
-    .tagline {
-      font-size: 1.2em;
-      color: #999;
-      font-style: italic;
-      margin-bottom: 1em;
-    }
-
-    nav a {
-      color: #e8e6d1;
+    .button {
+      background-color: #ffcc00;
+      color: #000;
+      padding: 1em 2em;
+      margin: 1em;
       text-decoration: none;
-      margin: 0 1em;
       font-weight: bold;
+      border-radius: 5px;
+      display: inline-block;
     }
-
-    nav a:hover {
-      color: #ff0033;
-    }
-
-    .intro {
-      margin-top: 2em;
-    }
-
-    .intro h2 {
-      color: #ffcc00;
-      font-size: 2em;
-    }
-
-    .intro p {
-      font-size: 1.1em;
-      max-width: 600px;
-      margin: 0 auto;
-      line-height: 1.6em;
-    }
-
-    footer {
-      margin-top: 3em;
-      font-size: 0.9em;
-      color: #666;
+    .button:hover {
+      background-color: #ff9900;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Naked Lunch Meat</h1>
-    <p class="tagline">Beat Generation Horror Family Cookbook</p>
-    <nav>
-      <a href="#">Recipes</a>
-      <a href="#">About</a>
-    </nav>
-  </header>
+  <h1>Naked Lunch Meat</h1>
+  <p>A Beat Generation horror family cookbook. Recipes dredged from the underbelly of American kitchens.</p>
 
-  <main>
-    <section class="intro">
-      <h2>Welcome to the Feast</h2>
-      <p>
-        Strange family recipes from the shadows of a typewritten nightmare.
-        You’re not just tasting food — you’re tasting memory, madness, and meat.
-      </p>
-    </section>
-  </main>
+  <a href="recipes.html" class="button">Recipes</a>
 
-  <footer>
-    <p>&copy; 2025 Naked Lunch Meat</p>
-  </footer>
+  <p style="margin-top: 4em; font-size: 0.9em;">
+    &copy; 2025 NakedLunchMeat.com
+  </p>
 </body>
 </html>
